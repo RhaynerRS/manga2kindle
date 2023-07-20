@@ -1,3 +1,7 @@
+@import url('style.bundle.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+body{font-family: 'Open Sans', sans-serif !important;
+}
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -38,6 +42,45 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+}
+.justify-content-evenly{
+  justify-content: space-evenly!important;
+}
+
+.email-button {
+  -webkit-box-shadow: 0 4px 14px 0 rgba(34, 137, 255, 0.39);
+  -moz-box-shadow: 0 4px 14px 0 rgba(34, 137, 255, 0.39);
+  box-shadow: 0 4px 14px 0 rgba(34, 137, 255, 0.39);
+  color: white;
+  -webkit-transition: background.2s ease,color.2s ease,box-shadow.2s ease;
+  -moz-transition: background.2s ease,color.2s ease,box-shadow.2s ease;
+  -o-transition: background.2s ease,color.2s ease,box-shadow.2s ease;
+  transition: background.2s ease,color.2s ease,box-shadow.2s ease;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: inherit;
+}
+
+.email-button:hover {
+  -webkit-box-shadow: 0 6px 20px rgba(0,118,255,.23);
+  -moz-box-shadow: 0 6px 20px rgba(0,118,255,.23);
+  box-shadow: 0 6px 20px rgba(0,118,255,.23);
+}
+
+.w-33{
+  width:33.333333333%
+}
+
+.left--40{
+  left: -50%;
+}
+
+.texto-normal {
+  color: #757575;
+  font-size: .915vw;
+  letter-spacing: 0px;
+  line-height: 1.7vw;
 }
 
 @media (prefers-color-scheme: dark) {
